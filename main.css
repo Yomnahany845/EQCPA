@@ -1,0 +1,310 @@
+/* h1{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -400px;
+    left: 300px;
+    transform: translate(-50%);
+    
+}
+p{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -260px;
+    left: 300px;
+    transform: translate(-50%);
+   
+}
+p{
+    line-height: 30px;
+} */
+a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 40px;
+
+
+}
+
+/* @media(max-width:350){
+    .home{
+        width: 20%;
+        line-height: 10px;
+    }
+
+}
+img{
+    position: relative;
+    
+}
+
+.photo{
+    position: relative;
+    
+    left: 300px;
+   
+} */
+
+.home {
+    background-image: url(WhatsApp\ Image\ 2024-12-14\ at\ 5.46.05\ PM.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.home .content {
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 50%;
+    line-height: 30px;
+
+
+}
+
+@media(max-width:600px) {
+    section .home {
+        padding: 100px 1%;
+        height: auto;
+    }
+    .home img{
+        height: auto;
+        width: 300px;
+        max-width: 100%;
+    }
+    section .about{
+        height: auto;
+        max-width: 100%;
+
+    }
+    .about img{
+        height: auto;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    width: 40%;
+    height: 40%;
+    margin: 30px;
+
+
+
+}
+
+/* .us{
+    color: black;
+    position: absolute;
+    margin: 20px;
+    left: 5%;
+    width:50% ;
+    line-height: 30px; 
+} */
+.title {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    left: 15%;
+    top: 30%;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 3%;
+    top: 58%;
+    color: black;
+    position: absolute;
+    margin: 20px;
+
+    line-height: 30px;
+}
+
+
+.serv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    left: 50%;
+}
+.services .card{
+   display: grid;
+   grid-template-columns: repeat(auto-fill,milmax(250px,1fr));
+   gap: 10px;
+   width: 80%;
+   
+   margin: 100px;
+   right: 35px;
+  
+}
+
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 70%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 80%;
+}
+
+.row {
+    width: 160vh;
+    height: 50vh;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+   
+}
+.us{
+    
+    border: 1px solid black;
+    padding: 18px;
+}
+#card{
+    border: 1px solid white;
+    
+}
+.title{
+    top: 228vh;
+    left: 83vh;
+}
+
+.card-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.card-title{
+    top: 60%;
+}
+.footer{
+    
+    width: 100%;
+    padding: 10px;
+    margin-top: 600px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+body{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width:390px){
+      body{
+        overflow-x: hidden;
+      }
+    .about, #card{
+      width: 40vh;
+      height: 25vh;
+      
+    
+    }
+    .about,
+    .us {
+      font-size: x-small;
+      
+
+    }
+    .serv{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     margin-left: 40px;
+     margin-top: 500px;
+    }
+    .services{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    top: -90px;
+    margin: -700px;
+    padding: 250px;
+    width: 106vh;
+    height: 106vh;
+    margin-left: -640px;
+    
+    
+      
+    }
+    .card-title{
+      top: 450px;
+    }
+    .card-text{
+      top: 370px;
+      font-size: small;
+      width: 250px;
+      left: 30px;
+    }
+    #img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    width: 50vh;
+    height: 50vh;
+    }
+    .card-body{
+    padding: 50px;
+    left: 30px;
+   }
+  }
+
+

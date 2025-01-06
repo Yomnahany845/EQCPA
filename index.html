@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EQCPA</title>
+  <link rel="icon" href="eqcpa2.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+     @media (max-width:1119px){
+      body{
+        overflow-x: hidden;
+      }
+      .about,
+      #card {
+        width: 80vh;
+        height: 50vh;
+        
+
+      }
+
+      .about,
+      .us  {
+        font-size: small;
+        
+
+      }
+      .serv{
+       margin: 400px;
+       
+      }
+      .services{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      top: -90px;
+      margin: -650px;
+      padding: 10px;
+      width: 106vh;
+      height: 106vh;
+      
+        
+      }
+      
+      .card-title{
+        top: 320px;
+        left: 10%;
+      }
+      .card-text{
+        top: 370px;
+        font-size: medium;
+        width: 350px;
+      }
+     .card-body{
+      padding: 80px;
+     }
+     .footer{
+      margin-top: 220vh;
+
+     }
+
+    
+     }
+    @media (max-width:850px) {
+
+      .about,
+      #card {
+        width: 80vh;
+        height: 50vh;
+        
+
+      }
+
+      .about,
+      .us  {
+        font-size: small;
+        
+
+      }
+      .serv{
+       margin: 400px;
+       
+      }
+      .services{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      top: -90px;
+      margin: -650px;
+      padding: 10px;
+      width: 106vh;
+      height: 106vh;
+      
+        
+      }
+      
+      .card-title{
+        top: 320px;
+        left: 10%;
+      }
+      .card-text{
+        top: 370px;
+        font-size: medium;
+      }
+     .card-body{
+      padding: 80px;
+     }
+
+    }
+    @media (max-width:769px){
+      .footer{
+        margin-top: 220vh;
+      }
+
+    }
+    @media (max-width:767px){
+      .footer{
+        margin-top: 420vh;
+      }
+
+    }
+    @media (max-width:733px){
+      .about,
+      #card {
+        width: 80vh;
+        height: 50vh;
+        
+
+      }
+
+      .about,
+      .us  {
+        font-size: small;
+        
+
+      }
+      .serv{
+       margin: 400px;
+       
+      }
+      .services{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      top: -90px;
+      margin: -650px;
+      padding: 10px;
+      width: 106vh;
+      height: 106vh;
+      margin-left: -320px;
+        
+      }
+      
+      .card-title{
+        top: 320px;
+        left: 10%;
+      }
+      .card-text{
+        top: 370px;
+        font-size: medium;
+        width: 350px;
+      }
+     .card-body{
+      padding: 80px;
+     }
+     .footer{
+      margin-top: 420vh;
+     }
+    }
+    @media (max-width:650px) {
+      .about, #card{
+        width: 60vh;
+        height: 40vh;
+       
+
+      }
+      .about,
+      .us  {
+        font-size: x-small;
+        
+
+      }
+      .serv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       margin-left: 300px;
+      }
+      .services{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      top: -90px;
+      margin: -650px;
+      padding: 250px;
+      width: 106vh;
+      height: 106vh;
+      
+      
+      
+        
+      }
+      .card-title{
+        top: 320px;
+      }
+      .card-text{
+        top: 370px;
+        font-size: medium;
+        
+      }
+      .card-body{
+      padding: 80px;
+     }
+     
+    }
+    @media (max-width:495px) {
+      .about, #card{
+        width: 50vh;
+        height: 30vh;
+      }
+      .about,
+      .us  {
+        font-size: x-small;
+
+      }
+      .serv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       margin-left: 150px;
+      margin-top: 500px;
+      
+       
+      }
+      .services{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      top: -90px;
+      margin: -650px;
+      padding: 250px;
+      width: 106vh;
+      height: 106vh;
+      
+      
+      
+        
+      }
+      .card-title{
+        top: 320px;
+      }
+      .card-text{
+        top: 370px;
+        font-size: medium;
+        
+      }
+      .card-body{
+      padding: 80px;
+     }
+    }
+    @media (max-width:433px) {
+      .about, #card{
+        width: 40vh;
+        height: 25vh;
+        
+      
+      }
+      .about,
+      .us {
+        font-size: x-small;
+        
+
+      }
+      .serv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       margin-left: 150px;
+       margin-top: 500px;
+      }
+      .services{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      top: -90px;
+      margin: -650px;
+      padding: 250px;
+      width: 106vh;
+      height: 106vh;
+      
+      
+      
+        
+      }
+      .card-title{
+        top: 320px;
+      }
+      .card-text{
+        top: 370px;
+        font-size: small;
+        width: 350px;
+        
+      }
+      #img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      width: 50vh;
+      height: 50vh;
+      }
+      .card-body{
+      padding: 50px;
+     }
+    }
+    @media (max-width:390px){
+      body{
+        overflow-x: hidden;
+      }
+      .about, #card{
+        width: 40vh;
+        height: 25vh;
+        
+      
+      }
+      .about,
+      .us {
+        font-size: x-small;
+        
+
+      }
+      .serv{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       margin-left: 40px;
+       margin-top: 500px;
+      }
+      .services{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      top: -90px;
+      margin: -700px;
+      padding: 250px;
+      width: 106vh;
+      height: 106vh;
+      
+      
+      
+        
+      }
+      .card-title{
+        top: 320px;
+      }
+      .card-text{
+        top: 370px;
+        font-size: small;
+        width: 250px;
+        
+      }
+      #img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      width: 50vh;
+      height: 50vh;
+      }
+      .card-body{
+      padding: 50px;
+     }
+    .footer{
+      margin-top: 390vh;
+    }
+    }
+    @media (max-width:383px){
+      
+      .about, #card{
+        width: 40vh;
+        height: 25vh;
+        
+      
+      }
+      .about,
+      .us {
+        font-size: x-small;
+        
+
+      }
+      .serv{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       margin-left: 40px;
+       margin-top: 500px;
+      }
+      .services{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      top: -90px;
+      margin: -700px;
+      padding: 250px;
+      width: 106vh;
+      height: 106vh;
+      margin-left: -640px;
+      
+      
+        
+      }
+      .card-title{
+        top: 320px;
+       
+      }
+      .card-text{
+        
+        top: 370px;
+        font-size: small;
+        width: 250px;
+        left: 30px;
+      }
+      #img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      width: 50vh;
+      height: 50vh;
+      }
+      .card-body{
+      padding: 50px;
+      left: 30px;
+     }
+     
+    }
+    @media (max-width:350px){
+      
+      .about, #card{
+        width: 40vh;
+        height: 25vh;
+        
+      
+      }
+      .about,
+      .us {
+        font-size: x-small;
+        
+
+      }
+      .serv{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       margin-left: 40px;
+       margin-top: 500px;
+      }
+      .services{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      top: -90px;
+      margin: -700px;
+      padding: 250px;
+      width: 106vh;
+      height: 106vh;
+      margin-left: -650px;
+      
+      
+        
+      }
+      .card-title{
+        top: 320px;
+      }
+      .card-text{
+        top: 370px;
+        font-size: small;
+        width: 250px;
+        left: 30px;
+      }
+      #img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      width: 50vh;
+      height: 50vh;
+      }
+      .card-body{
+      padding: 50px;
+      left: 30px;
+     }
+    }
+   
+   
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar bg-dark">
+    <div class="img1">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="#">
+
+          <img id="home" src="eqcpa2.png" alt="" width="50" height="55" class="d-inline-block align-text-">
+          EQCPA
+      </div>
+      </a>
+    </div>
+
+  </nav>
+
+  <section class="home">
+    <div class="content">
+      <h1>Welcome to EQCPA Your Trusted Partner in Financial Success</h1>
+      <br>
+      <p>At eqcpa, we are dedicated to helping you achieve financial security, growth, and peace of mind. With decades
+        of experience and a client-first approach, our team of expert advisors offers tailored solutions to meet your
+        unique needs</p>
+
+    </div>
+
+  </section>
+
+<center>
+  <h1 id="title">About Us</h1>
+  </center>
+  <center>
+    <section class="about">
+      
+      <div id="card" class="card mb-3">
+
+      
+        <img src="WhatsApp Image 2024-12-15 at 8.49.26 PM.jpeg" class="card-img-top"  alt="...">
+       
+        <div class="card-body">
+
+          <p class="us">we specialize in providing comprehensive financial services designed to help individuals,
+            families, and businesses secure their financial futures. With a deep commitment to excellence, integrity,
+            and personalized care, we partner with our clients to navigate the complexities of finance and investment,
+            enabling them to make confident, informed decisions at every stage of their financial journey.
+
+            Our team of experienced financial advisors, planners, and analysts is dedicated to offering expert guidance
+            tailored to your unique needs. Whether you're just starting to plan for the future, managing your wealth, or
+            looking to secure your retirement, we’re here to help you achieve your goals with a clear, actionable
+            financial strategy.
+          </p>
+        </div>
+      </div>
+
+    </section>
+  </center>
+  
+  
+  <h1 class="serv">OUR SERVICES</h1>
+  <center>
+    <!-- <h1 class="serv">OUR SERVICES</h1> -->
+    
+  <section class="services">
+    <!-- <h1 class="title">OUR SERVICES</h1> -->
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card h-100" style="border: 1px white;">
+          <img id="img" src="WhatsApp Image 2024-12-15 at 10.05.10 PM.png" class="card-img-top"  style="width: 38vh; height: 37vh;" alt="...">
+          
+          <div class="card-body">
+
+            <h5 class="card-title">Investment Management</h5>
+            <p class="card-text">We design and manage investment portfolios that align with your goals, risk tolerance, and time horizon. Whether you’re saving for retirement,  building wealth, or managing existing investments.
+             
+              
+              </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100"  style="border: 1px white;">
+          <img id="img" src="WhatsApp Image 2024-12-15 at 10.05.18 PM.png" class="card-img-top"  style="width: 38vh; height: 37vh;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> <b>Financial Planning</b></h5>
+            <p class="card-text">Our comprehensive financial planning services help you organize and prioritize your financial goals. Whether it's budgeting, debt management ,tax planning , or creating a savings strategy, we work with you to ensure that every aspect of your financial life is aligned with your goals.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100"  style="border: 1px white;">
+          <img id="img" src="WhatsApp Image 2024-12-15 at 10.05.18 PM (1).png" class="card-img-top"  style="width: 38vh; height: 37vh;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><b>Risk Management</b></h5>
+            <p class="card-text">Protecting your assets is just as important as growing them. We offer tailored insurance solutions to safeguard your health, income, home, and business. Our team works with top providers to help you choose the right coverage at the best value.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100"  style="border: 1px white;">
+          <img id="img" src="WhatsApp Image 2024-12-15 at 10.05.18 PM (2).png" class="card-img-top"  style="width: 38vh; height: 37vh;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> <b>Tax Planning</b> </h5>
+            <p class="card-text">Managing taxes efficiently is key to growing and preserving your wealth. Our tax planning services focus on minimizing tax liabilities and ensuring that you’re taking advantage of all eligible deductions, credits, and tax-advantaged accounts. . We also provide full tax preparation services for individuals and businesses. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+</center>
+<section class="footer bg-dark" >
+<div class="footerContainer">
+<div class="socialIcons">
+<a href="https://web.facebook.com/eqcpa" style="text-decoration: none;"><i class="fa-brands fa-facebook" style="padding: 20px; background-color: white; border-radius: 50%; margin: 10px;"></i></a>
+<a href="https://x.com/eqcpa_com" style="color: black; text-decoration: none;"><i class="fa-brands fa-twitter" style="color: black; padding: 20px; background-color: white; border-radius: 50%; margin: 10px;"></i></a>
+<h1 style="color: white;margin-left: 60px; margin-top: 10px;">Contact us</h1>
+</div>
+
+</div>
+</section>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
